@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <flash_device>
-  <exe>$PROJ_DIR$/../../../../../../drivers/cmsis/Device/HDSC/hc32f4xx/Source/IAR/flashloader/FlashHC32F4A8.out</exe>
+  <exe>./FlashHC32F4A8.out</exe>
   <page>16</page>
   <block>256 0x2000</block>
   <flash_base>0x00000000</flash_base>
-  <macro>$PROJ_DIR$/../../../../../../drivers/cmsis/Device/HDSC/hc32f4xx/Source/IAR/flashloader/FlashHC32F4A8.mac</macro>
+  <macro>./FlashHC32F4A8.mac</macro>
   <aggregate>0</aggregate>
 </flash_device>

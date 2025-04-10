@@ -47,8 +47,11 @@ if GetDepend(['RT_USING_SPI']):
 if GetDepend(['RT_USING_QSPI']):
     src += ['hc32_ll_driver/src/hc32_ll_qspi.c']
 
-if GetDepend(['RT_USING_CAN']):
+if GetDepend(['BSP_USING_CAN']):
     src += ['hc32_ll_driver/src/hc32_ll_can.c']
+
+if GetDepend(['BSP_USING_MCAN']):
+    src += ['hc32_ll_driver/src/hc32_ll_mcan.c']
 
 if GetDepend(['BSP_USING_ETH']):
     src += ['hc32_ll_driver/src/hc32_ll_eth.c']
